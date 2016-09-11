@@ -11,26 +11,32 @@ ___
 
 
 ___ 
+Terminal aufräumen:
 clear
+
 Pfad schreiben
 pwd
+
+Directory ändern
 cd
+
+Inhalt listen
 ls
-Fenster öffnen
+
+Fenster öffnen aus Directory
 open .
+
 Username finden
 git config --list
-history:
+
+history anzeigen
 git log
 
-Webserver erreicheng
+Webserver erreichen
 git remote
 
-Aussetigen
+Aussteigen bei VIM
 :q
-
-
-
 
 
 
