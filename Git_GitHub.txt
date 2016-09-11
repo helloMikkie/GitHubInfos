@@ -1,0 +1,102 @@
+!!! Git is a program on your computer and Github is a website.
+https://sklise.com/2012/10/07/git-workflow-beginner/
+https://sklise.com/2012/09/22/introduction-to-git/
+http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/de/index.html
+https://www.thinkful.com/learn/a-guide-to-using-github-pages/
+
+
+___
+
+
+
+
+___ 
+clear
+Pfad schreiben
+pwd
+cd
+ls
+Fenster öffnen
+open .
+Username finden
+git config --list
+history:
+git log
+
+Webserver erreicheng
+git remote
+
+Aussetigen
+:q
+
+
+
+
+
+
+Open Terminal
+
+Change Directory
+cd ~/Desktop
+oder cd // drag folder
+list content
+ls
+
+Ordner erzeugen (make direction)
+mkdir radsketch
+
+DAtei erzeugen
+touch radsketch.pde
+
+// DAtei in Processing erzeugen
+
+Git DAtei erzeugen
+$ git init
+
+Status anzeigen
+$ git status
+
+Datei hinzufügen
+$ git add radsketch.pde
+
+
+Message
+git commit -m "Created a triangle in a circle"
+
+// Änderungen in Datei vornehmen
+
+Anzeige der geänderten CodeLines
+git diff
+
+
+an Github senden
+git push origin master
+// journal
+git log
+
+Git Hub
+
+New Repository
+
+Terminal
+Zwei zeilen aus
+...or push an existing reppository from the command line
+// einmalig!!!
+$ git config --global user.name "YOUR_FULL_NAME"
+$ git config --global user.email "YOUR_EMAIL_ADDRESS"
+
+
+Workflow
+
+- Open Terminal 
+- set the working directory to the project folder:  cd 
+- Initialize Git in this folder. $ git init
+-Go to Github.com 
+- create a new repository.
+-Copy the URL for this repository from the setup page into the following command: $ git remote add origin
+-create a commit: git commit -m "Created a triangle in a circle"
+- Git doesn’t tell you what’s going on unless you ask. The way to ask is running the above command: git status
+- If you want to add these changes to a commit, run git add for each of these files
+-YOU MUST EXPLICITLY TELL GIT TO SEND FILES AND CHANGES TO GITHUB. THIS DOES NOT HAPPEN AUTOMAGICALLY.
+
+- send your recent commits to Github: $ git push origin master
