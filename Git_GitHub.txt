@@ -1,15 +1,12 @@
 !!! Git is a program on your computer and Github is a website.
+Useful links:
+
 https://sklise.com/2012/10/07/git-workflow-beginner/
 https://sklise.com/2012/09/22/introduction-to-git/
 http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/de/index.html
 https://www.thinkful.com/learn/a-guide-to-using-github-pages/
 
-
-___
-
-
-
-
+Terminal Basics:
 ___ 
 Terminal aufräumen:
 clear
@@ -40,43 +37,45 @@ Aussteigen bei VIM
 
 
 
-Open Terminal
+-> Open Terminal
 
-Change Directory
+-> Change Directory
 cd ~/Desktop
 oder cd // drag folder
-list content
+
+->list content
 ls
 
-Ordner erzeugen (make direction)
+-> Ordner erzeugen (make direction)
 mkdir radsketch
 
-DAtei erzeugen
-touch radsketch.pde
+((-> Daatei erzeugen))
+$ touch radsketch.pde
 
 // DAtei in Processing erzeugen
 
-Git DAtei erzeugen
+-> Git DAtei erzeugen
 $ git init
 
-Status anzeigen
+->Status anzeigen
 $ git status
 
 Datei hinzufügen
 $ git add radsketch.pde
 
 
-Message
+-> Message
 git commit -m "Created a triangle in a circle"
 
 // Änderungen in Datei vornehmen
 
-Anzeige der geänderten CodeLines
+-> Anzeige der geänderten CodeLines
 git diff
 
 
 an Github senden
-git push origin master
+git push -u origin master
+
 // journal
 git log
 
@@ -87,6 +86,7 @@ New Repository
 Terminal
 Zwei zeilen aus
 ...or push an existing reppository from the command line
+
 // einmalig!!!
 $ git config --global user.name "YOUR_FULL_NAME"
 $ git config --global user.email "YOUR_EMAIL_ADDRESS"
